@@ -1,12 +1,16 @@
 import "./App.css"
 import Layout from "./components/Layout"
-import Wishlist from "./Pages/Wishlist"
+import OurCardList from "./components/OurCardList"
+
+import MyListCard from "./Pages/Wishlist/MyListCard"
 
 function App() {
   return (
     <div className="App">
       <Layout>
-        <Wishlist />
+        <OurCardList/>
+        <MyListCard />
+
       </Layout>
     </div>
   )
